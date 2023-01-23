@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+/* css variables*/
+:root{
+    --primary: rgb(155, 202, 101);
+    --white: #ffff;
+    --off-white: rgba(228, 189, 189, 0.767);
+}
+ h1 {
+    font-family: 'Explora', cursive;
+            color: var(--primary);
+ }
+ h2{
+    text-align: center;
+    background-color: aquamarine;
+ }
+
+ .container-container-center{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    color:var(--off-white);
+    background-color: var(--primary);
+ }
+ /* links */
+ .Links{
+   
+    padding: 2rem 5rem;
+ }
+ .Links .link1{
+    text-decoration: none;
+    border: 0.1rem solid var(--primary);
+    padding: 0.5rem;
+    background-color: aquamarine;
+    color: #ffff;
+    margin: 2rem;
+ }
+ .link2{
+    text-decoration: none;
+    border: 0.1rem solid var(--primary);
+    padding: 0.5rem;
+    background-color: aquamarine;
+    color: rgb(103, 101, 240);
+    border-radius: 1rem 2rem; 
+ }
+ .list-non-bullet{
+    list-style-type: none;
+ }
+ .list-bullet{
+    list-style-type: disc;
+ }
+ /* nav */
+ nav{
+    border-radius: 2rem;
+    background-color: bisque;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-brand{
+    font-weight: bolder;
+    font-size: large;
+}
+.nav-pill{
+    display: flex;
+    
+}
+.list-item-inline{
+    margin: 0rem 1rem;
+    background-color: var(--off-white);
+}
+.list-item-inline{
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(192, 166, 166);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
