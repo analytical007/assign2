@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 /* css variables*/
 :root{
     --primary: rgb(155, 202, 101);
     --white: #ffff;
     --off-white: rgba(228, 189, 189, 0.767);
 }
- h1 {
-    font-family: 'Explora', cursive;
-            color: var(--primary);
- }
- h2{
-    text-align: center;
-    background-color: aquamarine;
- }
+.header{
+   text-align: center;
+   color: bisque;
+   background-color: aquamarine;
+   border-radius: 2rem 1rem;
+}
+#para{
+   font-family: 'Aboreto', cursive;
+   font-weight: 900;
+}
+.container{
+   font-family: 'Aboreto', cursive;
+   font-size: small;
+   color:aquamarine;
+   font-weight: 900;
+}
 
  .container-container-center{
     text-align: center;
@@ -43,6 +51,14 @@
     color: rgb(103, 101, 240);
     border-radius: 1rem 2rem; 
  }
+ .link3{
+   border: 0.1rem;
+   text-decoration: none;
+   padding: 1rem;
+   color: black;
+   background-color: antiquewhite;
+   border-radius: 1rem 1rem;
+ }
  .list-non-bullet{
     list-style-type: none;
  }
@@ -57,6 +73,7 @@
     padding: 2rem;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 .nav-brand{
     font-weight: bolder;
@@ -76,4 +93,18 @@
     text-decoration: none;
     font-size: larger;
     font-weight: bold;
+}
+.image1{
+   max-width: 25rem;
+   max-height: 25rem;
+   display: block;
+   margin: auto;
+}
+.image2{
+   text-align: center;
+   font-family: 'Aboreto', cursive;
+
+}
+.image3{
+   color: rgb(153, 51, 68);
 }
